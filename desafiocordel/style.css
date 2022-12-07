@@ -1,0 +1,97 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Caveat', cursive;
+    --font3: 'Dancing Script', cursive;
+}
+
+body{
+    background-color:burlywood;
+}
+
+main{
+    margin: auto;
+    background-color: rgb(226, 208, 182);
+    max-width: 900px;
+    min-width: 400px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: var(--font1);
+}
+
+header > h1 {
+ font-size: 10vw;
+ font-family: var(--font3);
+ padding: 0px;
+ margin: 0px;
+
+}
+
+section{
+    
+    line-height: 1.6em;
+    font-family: var(--font2);
+    font-size: 2em;
+}
+
+p{
+    padding: 30px;
+}
+
+
+section.imagem{
+    box-shadow: inset 5px 5px 10px black;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#joaninha{
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    
+}
+section#folha{
+    background-image: url(imagens/background002.jpg);
+    background-position: center right;
+    
+}
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.137);
+    display: inline-block;
+    color: white;
+    text-shadow: 1px 1px 0px black;
+   
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
