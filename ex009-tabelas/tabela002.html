@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          table{
+            border-collapse: collapse;
+            width: 99vw;
+            max-width: 1200px;
+        }
+
+        td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th{
+            border: 1px solid black;
+            padding: 7px;
+        }
+    </style>
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <th scope="col">Grupo</th>
+            <th scope="col">Nome</th>
+            <th colspan="3" scope="colgroup">Livros favoritos</th>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Artistas</th>
+                <td> Ednaldo Pereira</td>
+                <td> A riqueza das naçoes</td>
+                <td> Vagalumes de Fogo</td>
+                <td> O corpo fala</td>
+            </tr>
+            <tr>
+                <td> Silvio Santos</td>
+                <td> Quem quer ser um milionário?</td>
+                <td> Ecce Hommo</td>
+                <td> O segredo</td>
+            </tr>
+            <tr>
+                <td>Caetano Veloso</td>
+                <td> O caçador de pipas</td>
+                <td> Tudo começa na infância</td>
+                <td> Lolita</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup"></th>
+                <td> Joseph Stalin</td>
+                <td> O manifesto do partido comunista </td>
+                <td> Democracia - O deus que falhou</td>
+                <td> Minecraft - O mistério de Herobrine</td>
+            </tr>
+            <tr>
+                <td> Fulano</td>
+                <td> aquele</td>
+                <td> aquele outro</td>
+                <td> mais um</td>
+            </tr>
+            <tr>
+                <td> Paulo Kogos</td>
+                <td> A bíblia sagrada</td>
+                <td> O guia politicamente incorreto da história do mundo</td>
+                <td> Tudo o que voce precisa saber para não ser um idiota</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

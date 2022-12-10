@@ -16,21 +16,74 @@
         td{
             border: 1px solid black;
             padding: 10px;
+            text-align: center;
         }
+
+        th{
+            border: 1px solid black;
+            padding: 7px;
+        }
+        thead{
+            background-color: rgb(97, 97, 97);
+            color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: 0px;
+            background-color: rgb(97, 97, 97) ;
+        }
+
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        } 
+
     </style>
 </head>
 <body>
     <table>
-        <tr>
-            <td>a</td>
-            <td>b</td>
-            <td>c</td>
-        </tr>
-        <tr>
-            <td>A</td>
-            <td>B</td>
-            <td>C</td>
-        </tr>
+        <thead>
+            <th>Nome</th>
+            <th>Número</th>
+        </thead>
+       <tbody>
+            <tr>
+                <td>Romulo</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Romulo</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>Romulo</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <td>Romulo</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Romulo</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Romulo</td>
+                <td>52</td>
+            </tr>
+            <tr>
+                <td>Romulo</td>
+                <td>13</td>
+            </tr>
+            <tr>
+                <td>Romulo</td>
+                <td>14</td>
+            </tr>
+
+       </tbody>
     </table>
+    <p>
+        a <br> a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>a <br>
+    </p>
 </body>
 </html>
